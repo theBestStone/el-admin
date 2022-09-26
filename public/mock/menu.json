@@ -1,0 +1,151 @@
+[
+  {
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "系统管理" },
+    "children": [
+      {
+        "name": "userManage",
+        "component": "system/user/index",
+        "path": "/userManage",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "用户管理" }
+      },
+      {
+        "name": "roleManage",
+        "component": "system/role/index",
+        "path": "/roleManage",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "角色管理" }
+      },
+      {
+        "name": "menuManage",
+        "component": "system/menu/index",
+        "path": "/menuManage",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "菜单管理" }
+      },
+      {
+        "name": "enterManage",
+        "component": "system/enter/index",
+        "path": "/enterManage",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "企业管理" }
+      },
+      {
+        "name": "deptManage",
+        "component": "system/dept/index",
+        "path": "/deptManage",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "部门管理" }
+      }
+    ]
+  },
+  {
+    "icon": "el-icon-lx-calendar",
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "客资管理" },
+    "children": [
+      {
+        "name": "enterprise",
+        "component": "customer/enterprise/index",
+        "path": "/enterprise",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "企业客户" }
+      },
+      {
+        "name": "contacts",
+        "component": "customer/contacts/index",
+        "path": "/contacts",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "联系人" }
+      },
+      {
+        "name": "todolist",
+        "component": "customer/todolist/index",
+        "path": "/todolist",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "待办管理" }
+      }
+    ]
+  },
+  {
+    "icon": "el-icon-lx-calendar",
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "配置管理" },
+    "children": [
+      {
+        "name": "config",
+        "component": "config/common/index",
+        "path": "/config",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "公共设置" }
+      },
+      {
+        "name": "notice",
+        "component": "config/notice/index",
+        "path": "/notice",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "公告设置" }
+      },
+      {
+        "name": "download",
+        "component": "config/download/index",
+        "path": "/download",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "下载管理" }
+      },
+      {
+        "name": "problem",
+        "component": "config/problem/index",
+        "path": "/problem",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "常见问题" }
+      }
+    ]
+  },
+  {
+    "icon": "el-icon-lx-calendar",
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "运维管理" },
+    "children": [
+      {
+        "name": "data",
+        "component": "devOps/data/index",
+        "path": "/data",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "数据管理" }
+      },
+      {
+        "name": "resources",
+        "component": "devOps/resources/index",
+        "path": "/resources",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "资源管理" }
+      }
+    ]
+  },
+  {
+    "icon": "el-icon-lx-calendar",
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "运营管理" },
+    "children": [
+      {
+        "name": "userStatistics",
+        "component": "operate/userStatistics/index",
+        "path": "/userStatistics",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "运营管理" }
+      }
+    ]
+  },
+  {
+    "icon": "el-icon-lx-calendar",
+    "name": "sys",
+    "path": "/sys",
+    "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "能力开放平台管理" },
+    "children": [
+      {
+        "name": "application",
+        "component": "ability/application/index",
+        "path": "/application",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "应用管理" }
+      },
+      {
+        "name": "applicationApp",
+        "component": "ability/applicationApp/index",
+        "path": "/applicationApp",
+        "meta": { "icon": "el-icon-lx-calendar", "noCache": false, "title": "应用管理审批" }
+      }
+    ]
+  }
+]
